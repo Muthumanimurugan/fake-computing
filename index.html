@@ -48,6 +48,7 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" style="border: none;"></span>
         </button>
+
         <div class="sidebar">
             <div class="sidebar-header">
                 <a class="navbar-brand" href="#" style="padding: 0;">
@@ -208,11 +209,13 @@
         document.querySelector('.sidebar').classList.add('active');
         document.querySelector('body').classList.add('sidebar-open');
     }
+
     // Function to close sidebar
     function closeSidebar() {
         document.querySelector('.sidebar').classList.remove('active');
         document.querySelector('body').classList.remove('sidebar-open');
     }
+
     function toggleDropdown(dropdownId) {
         var dropdown = document.getElementById(dropdownId + '-dropdown');
         var icon = document.getElementById(dropdownId + '-icon');
@@ -227,6 +230,7 @@
                 associatedIcon.classList.add('bi-chevron-down');
             }
         });
+
         // Toggle the display and icon class of the current dropdown
         if (dropdown.style.display === 'block') {
             dropdown.style.display = 'none';
@@ -238,6 +242,8 @@
             icon.classList.add('bi-chevron-up');
         }
     }
+
+
     // Toggle sidebar on navbar toggler click
     document.querySelector('.navbar-toggler').addEventListener('click', function () {
         if (document.querySelector('.sidebar').classList.contains('active')) {
@@ -419,7 +425,7 @@ third section -->
     </div>
 </div>  
 <!-- fourth section -->
-<div class="container expertise-business-adaptable-container ">
+<div class="container expertise-business-adaptable-container">
     <div class="expertise-business-adaptable">
     <div class="section-4">
         <div class="cloud-expertise-business">
@@ -530,7 +536,7 @@ third section -->
         </div>
     </div>
     <div class="section-4-button">
-        <a href="#">All technologies we work with &rarr; </a>
+        <a href="#">All technologies we work with <span style="font-size:20px !important">&rarr;</span></a>
     </div>
 </div> 
 </div>
@@ -987,9 +993,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script> 
 <!-- 9 section -->
-  <div class="container our-testimonials">
+   <div class="container our-testimonials">
     <div class="our-testimonials-heading">
-        <h1>Oru <span style="color: #2CA068;">Testimonials</span></h1>
+        <h1>Our <span style="color: #2CA068;">Testimonials</span></h1>
     </div>
 
     <div class="our-testimonials-section9 active-btn">
@@ -1110,7 +1116,7 @@ carouselButtons.forEach((button, index) => {
 
 
 
-</script>      
+</script>       
 <!-- 10 section   one --> 
  <div class="container">
     <div class="cloudcomputingindustries-web">
@@ -1271,7 +1277,7 @@ carouselButtons.forEach((button, index) => {
                     suscipit quam qui excepturi dolor ut quasi voluptatem! 
                 </p>
                 <div class="casestudies-button_div">
-                    <button type="button" class="casestudies-button">Learn More<span class="casestudies-button-span">z&rarr;</span></button>
+                    <button type="button" class="casestudies-button">Learn More<span class="casestudies-button-span"> &rarr;</span></button>
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-end" id="casestudies-image2">
@@ -1454,7 +1460,7 @@ carouselButtons.forEach((button, index) => {
         
       </div>
       <div class="about_session10_button_div">
-        <button type="button" class="about_session10_button">Read more blogs &rarr;</button>
+        <button type="button" class="about_session10_button">Read more blogs<span style="font-size:20px !important">&rarr;</span></button>
       </div>
     </div>
   </div>
@@ -1625,6 +1631,8 @@ carouselButtons.forEach((button, index) => {
     </div>
 </div> 
 <!-- 15 section -->
+
+
 <footer class="footer">
     <div class="container">
       <div class="row footer-columns justify-content-between">
@@ -1755,6 +1763,8 @@ carouselButtons.forEach((button, index) => {
     });
   });
   </script>
+
+  
   <!-- Bootstrap JS and dependencies -->
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
