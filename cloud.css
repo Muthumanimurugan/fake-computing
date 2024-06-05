@@ -2,116 +2,120 @@
   font-family: 'Source Sans Pro', sans-serif !important; 
   }
 
-  
-  /* navabar */
-  .navbar_button {
-    border-radius: 12px;
-    background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
-    color: #fff;
-    border-radius: 7px;
-    font-weight: 700;
-    border: none !important;
-    font-size: 16px;
-  }
-  
-  .navbar-button {
-    border-radius: 12px;
-    background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
-    color: #fff;
-    border-radius: 7px;
-    font-weight: 700;
-    border: none !important;
-    font-size: 16px;
-    width: 100% !important;
-    height: 34px !important;
-  
-  }
-  
-  /* Navbar logo styles */
-  .nav-logo {
-    width: 210px !important;
-    height: 34px !important;
-  }
-  
-  /* Sidebar styles */
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: -950px;
-    width: 250px;
-    height: 100%;
-    background-color: #fff;
-    z-index: 1000;
-    transition: all 0.3s ease;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
-    padding-top: 50px;
-  }
-  
-  .sidebar.active {
-    left: 0;
-  }
-  
-  #navbarDropdownSolutions,
-  #navbarDropdownIndustries,
-  #navbarDropdownTechnologies,
-  #navbarDropdownPortfolio {
-    color: #676968;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
-  
-  }
-  
-  #nav-a {
-    color: #676968 !important;
-    font-size: 16px !important;
-    font-weight: 400 !important;
-    text-align: left;
-  
-  }
-  
-  #nav-sidebar-ul {
-    font-weight: 400;
-    gap: 10px !important;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-  }
-  
-  .cancel-icon {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .nav-logo-sidebar {
-    width: 138px !important;
-    height: 22.35px !important;
-    margin-top: -50px !important;
-    margin-left: 20px !important;
-  }
-  
-  .dropdown-toggle::after {
-    border-top-color: green;
-  }
-  
-  /* Custom CSS to change carousel control button color to green */
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: green;
-  }
-  
-  
-  @media (min-width: 320px) and (max-width: 768px) {
-    .nav-logo {
-        width: 138px !important;
-        height: 22px !important;
+    /* navabar */
+    .navbar_button {
+      border-radius: 12px;
+      background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+      color: #fff;
+      border-radius: 7px;
+      font-weight: 700;
+      border: none !important;
+      font-size: 16px;
     }
-  
+    
+    .navbar-button {
+      border-radius: 12px;
+      background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+      color: #fff;
+      border-radius: 7px;
+      font-weight: 700;
+      border: none !important;
+      font-size: 16px;
+      width: 100% !important;
+      height: 34px !important;
+    
+    }
+    
+    /* Navbar logo styles */
+    .nav-logo {
+      width: 210px !important;
+      height: 34px !important;
+    }
+    
+    /* Sidebar styles */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: -950px;
+      width: 250px;
+      height: 100%;
+      background-color: #fff;
+      z-index: 1000;
+      transition: all 0.3s ease;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+      padding-top: 50px;
+    }
+    
+    .sidebar.active {
+      left: 0;
+    }
+    
+    #navbarDropdownSolutions,
+    #navbarDropdownIndustries,
+    #navbarDropdownTechnologies,
+    #navbarDropdownPortfolio {
+      color: #676968;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: left;
+    
+    }
+    
+    #nav-a {
+      color: #676968 !important;
+      font-size: 16px !important;
+      font-weight: 400 !important;
+      text-align: left;
+    
+    }
+    
+    #nav-sidebar-ul {
+      font-weight: 400;
+      gap: 10px !important;
+      margin-left: 20px !important;
+      margin-right: 20px !important;
+    }
+    
+    .cancel-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    
+    .nav-logo-sidebar {
+      width: 138px !important;
+      height: 22.35px !important;
+      margin-top: -50px !important;
+      margin-left: 20px !important;
+      
+    }
+    
+    .dropdown-toggle::after {
+      border-top-color: green;
+    }
+    
+    /* Custom CSS to change carousel control button color to green */
+    .carousel-control-prev,
+    .carousel-control-next {
+      
+      background-color: #2CA068 !important;
+    }
+    
+    
+    @media (min-width: 320px) and (max-width: 768px) {
+      .nav-logo {
+          width: 138px !important;
+          height: 22px !important;
+          margin-left: 10px !important;
+      }
+  .navbar-toggler{
+    margin-right: 10px !important;
+
   }
-  
-  
+    }
+    
   
   
   /* firstsection */
@@ -152,17 +156,31 @@ line-height: 22px;
 text-align: left !important;
 color: #676968;
  } 
- .cloudparaline4{
-  
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-text-align: left;
-color: #676968;
-margin-bottom: 50px !important;
+ .cloudparaline4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #676968;
+  margin-bottom: 50px !important;
+}
 
- } 
-  
+.cloudparaline4 ul {
+  list-style: none; /* Removes default list styling */
+  padding-left: 0; /* Removes default padding */
+  margin-left: 20px !important;
+}
+
+.cloudparaline4 ul li::before {
+  content: "\2022";
+  color: #2CA068; /* Green color for the dot */
+  font-weight: 500;
+  font-size: larger;
+  display: inline-block;
+  width: 1em; /* Ensures proper alignment */
+  margin-left: -1em; /* Adjusts position to the left */
+}
+
 .cloudbutton{
 text-align: left;
 margin-top:30px!important ;
@@ -200,6 +218,13 @@ color: #000000;
 
 
   }
+  
+.cloudparaline4 ul {
+  list-style: none; /* Removes default list styling */
+  padding-left: 0; /* Removes default padding */
+margin-left: 50px !important;
+  
+}
   .cloudparaline2{
     
 font-size: 16px;
@@ -228,22 +253,42 @@ line-height: 22px;
 text-align: left;
 color:#676968;
 
-
   }
-  .cloudbutton{
+
+  .cloudbutton .btn-primary{
    
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+   display: flex !important;
+   flex-direction: column !important;
+   align-items: center !important;
+   width: 204px;
+height:36px !important;
+padding: 10px 20px 10px 20px;
+gap: 8px;
+border-radius: 8px;
+opacity: 0px;
+color: white !important;
+margin-left: 45px !important;
+
 
   }
   .cloudimage1{
 
-margin-top: 15px !important;
+margin-top: 50px !important;
+
   }
 }
+@media screen and (min-width: 321px) and (max-width: 375px){
+.cloudbutton .btn-primary{
+  margin-left: 60px !important;
+}
 
+}
+@media screen and (min-width: 376px) and (max-width: 425px){
+  .cloudbutton .btn-primary{
+    margin-left: 85px !important;
 
+  }
+}
 /* second section */
 
  .innovation{
@@ -556,17 +601,17 @@ margin-top: 15px !important;
 
 
     .innovation{
-     
- 
       width:  100% !important;
       height: auto !important;
-      margin-top: -50px !important;
+      margin-top:-100px !important;
+
       }
 
 
   .innovation-first-col{
     width: 100%;
     margin-top: 50px!important;
+
   }
    
   .first-div {
@@ -576,6 +621,7 @@ margin-top: 15px !important;
     font-weight: 600;
     line-height: 40.22px;
     text-align: left;
+ 
     
     }
       
@@ -617,7 +663,7 @@ margin-top: 15px !important;
   
   
   .cloudcomputingmodel{
-margin-top: -570px !important;
+margin-top: -595px !important;
 
   }
 
@@ -939,7 +985,7 @@ padding: 20px !important;
 
     box-shadow: 0px 0px 4px 0px #00000040;
     color: #FFFFFF;
-
+margin-left: 30px !important;
   } 
   .cloudservicesolutioncardpointone{
     
@@ -958,6 +1004,7 @@ color: #000000;
     margin-left: -30px !important;
     font-size: 14px !important;
     padding-bottom: 0px !important;
+    color:#676968 !important;
   }
   .cloudservicesolutioncardpara1{
     
@@ -1011,8 +1058,9 @@ margin-top: -25px !important;
 
 
     .cloudservicesolution{
-      margin-top:0px !important;
-      margin-top: 100px !important;
+ 
+      margin-top: 50px !important;
+   
 
 
     }
@@ -1065,12 +1113,12 @@ margin-top: 30px !important;
 
    }
    .cloudservicesolutionpara2{
-    
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
     color: #676968;
+    margin-top: 15px !important;
     
        }
  .cloudservicesolutioncard{
@@ -1079,15 +1127,16 @@ background: #FFFFFF;
 
 border-radius: 20px 0px 0px 0px;
 
-margin-top:40px!important;
+margin-top:20px!important;
 
 border-radius: 20px 20px 20px 20px!important;
 
-padding:30px !important;
+padding:25px !important;
 
 box-shadow: 0px 0px 4px 0px #00000040;
 
 height: 90% !important;
+margin-left: 0px !important;
        }
 
       .cloudservicesolutionheading{
@@ -1353,7 +1402,7 @@ color:#676968;
 
   .expertise-business-adaptable-container{
     
-    margin-top: -100px !important;
+    margin-top: -150px !important;
   }
   .expertise-business-adaptable {
   margin-top: -500px !important;
@@ -1432,8 +1481,9 @@ text-align: left;
   
   .single-line hr {
       height: 2px;
-      color:#E9E9E9 !important;
-  margin-top: 10px !important;
+     color:#E9E9E9 !important; 
+
+  margin-top: 8px !important;
  
   margin-left: 0px !important;
  
@@ -1644,6 +1694,7 @@ text-align: left;
   }
   .boldletter{
     color: #000000;
+    font-size: 18px !important;
 
   }
   .cloudcomputingchoosespan{
@@ -1674,7 +1725,7 @@ margin-left:-40px!important
 
  @media (max-width:728px){
   .cloudservicechoose{
-    margin-top: 100px !important;
+    margin-top: 50px !important;
   }
   .cloudcomputingchooseheading{
 font-size: 32px;
@@ -1914,9 +1965,9 @@ color: #676968;
 @media only screen and (max-width: 767px){
   .cloud-deployment-p1{
   
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
+font-size: 12px !important;
+font-weight: 400 !important;
+line-height: 20px !important;
 text-align: left;
 color:#676968;
 margin-top: -10px !important;
@@ -1935,7 +1986,7 @@ width: 100% !important;
   
   }
   .News-and-Blogs-layout12{
-    margin-top: 60px !important;
+    margin-top: 30px !important;
 
   }
   .News-and-Blogs-heading h1{
@@ -2031,6 +2082,8 @@ width: 100% !important;
     min-height: 160px;
   
     margin-left: 0;
+    margin-top: 12px !important;
+
   }
   .cloud-deployment-p2{
    
@@ -2231,7 +2284,7 @@ color:#2CA068 !important;
     .section5layout{
       
         height: auto;
-        margin-top: 100px !important;
+        margin-top: 50px !important;
     }
     .section5heading{
         width: 100%;
@@ -2392,6 +2445,7 @@ text-align: left;
         top: 50%;
         transform: translateY(-50%);
     }
+    
 }
 
   
@@ -2402,6 +2456,7 @@ text-align: left;
   .business-adaptable-part-1-2 {
     display: inline-block;
     justify-content: space-evenly;
+    
   }
   
   .active-content2 {
@@ -2544,7 +2599,9 @@ margin-top: 30px !important;
 }
   @media (max-width: 768px) {
     .emergingTrend-content-web{
-      margin-top: 20px !important;
+  margin-top: -50px !important;
+
+
     }
     .expertise-business-adaptable-head1 {
       position: relative;
@@ -2556,6 +2613,7 @@ margin-top: 30px !important;
       text-align: left;
       
   color: #000 !important;
+
   
     }
 
@@ -2621,12 +2679,16 @@ margin-top: -5px !important;
       margin-top: 150px !important;
     }
   
-    .business-adaptable-part-1-2 .two2 {
-    
+    .business-adaptable-part-1-2{
       white-space: nowrap;
+      margin-left: -25px !important;
     }
     .two2 p{
-      font-size: 20px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22.63px;
+      text-align: left;
+      
     }
     .expertise-business-adaptable-head1 {
       font-size: 32px !important;
@@ -2752,7 +2814,6 @@ margin-top: -5px !important;
 
   .our-testimonials-heading h1{
     position: relative;
-
 font-size: 48px;
 font-weight: 600;
 line-height: 60.34px;
@@ -2786,6 +2847,7 @@ text-align: left;
     text-align: center;
     top: 20% ;
     left: 25% ;
+   color:#676968 !important;
 
   }
   .our-testimonials-part2{
@@ -2803,11 +2865,19 @@ text-align: left;
   .our-testimonials-part2 h6{
     margin-top: 10px;
     display: flex;
-    margin-left: 40px;
+    margin-left: 25px;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.11px;
+text-align: center;
+color: #414042 !important;
+
+
   }
   .our-testimonials-part2 p{
     display: flex;
     margin-left: 10px;
+    font-size: 12px !important;
   }
 
   
@@ -2826,6 +2896,7 @@ text-align: left;
 .our-testimonials-btn {
     text-align: center;
     margin-top: 20px;
+   margin-right: 40px !important;
 }
 
 .our-testimonials-btn button {
@@ -2851,16 +2922,25 @@ text-align: left;
 
 }
 
-@media (max-width:425px){
+@media (max-width:728px){
   .our-testimonials{
-margin-top: 50px !important;
+margin-top: 20px !important;
   }
     .our-testimonials-heading h1{
         font-size: xx-large;
         
     }
     .our-testimonials-section9{
-        height: 400px;
+        
+        /* width: 330px;
+height: 350px;
+ margin-left: -10px !important;
+ */
+
+
+    }
+    .our-testimonials-btn{
+      margin-right: 0px !important;
     }
     .our-testimonials-part1{
         width: 85%;
@@ -2882,6 +2962,10 @@ color:#676968 !important;
         flex-direction: column;
         margin-left: 0;
     }
+.our-testimonials-part2{
+margin-top: 20px !important;
+
+}
     .our-testimonials-part2 h6{
         margin-left: -30px;
  color: #414042;
@@ -2890,15 +2974,16 @@ font-weight: 600;
 line-height: 20.11px;
 text-align: center;
 
+
     }
     .our-testimonials-part2 p{
         margin-left: -50px;
-    
 font-size: 12px;
 font-weight: 400;
 line-height: 15.08px;
 text-align: center;
 color:#676968 !important;
+
 
     }
 
@@ -2928,15 +3013,11 @@ color:#676968 !important;
 
 
 .cloudcomputingindustriesheading{
-  
   color: #000000;
-
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 600;
 margin-top: 100px!important;
-
 font-size: 48px;
-
 line-height: 60.34px;
 text-align: left;
 
@@ -2945,7 +3026,7 @@ text-align: left;
 
 .cloudcomputingindustriesspan{
   font-size: 48px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 60.34px;
     text-align: left;
     color: #2CA068;
@@ -3101,7 +3182,7 @@ margin-left: 10px !important;
     }
     .cloudcomputingindustries-mobile{
       display: block;
-      margin-top: 80px !important;
+      margin-top: 40px !important;
 
     }
     .cloud-computing-industries-card-container {
@@ -3132,7 +3213,8 @@ margin-left: 10px !important;
       border-radius: 10px;
       padding: 0px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      border: none !important;
+      margin-top: 20px !important;
+      /* border: none !important; */
   } 
   .cloud-computing-industries-card-image{
     width: 64px;
@@ -3263,20 +3345,23 @@ color: #000000;
 
 
 .casestudies-button {
-  width: 161px;
+  width: 200px;
   height: 42px;
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 10px, 20px, 10px, 20px;
   background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
   color: #fff;
   border: none;
+  font-size: 18px !important;
+  font-weight: 700px !important;
+
 }
 
 
 .bottom-buttons button {
   width: 10px;
   height: 10px;
-  border-radius: 12px;
+  border-radius: 8px;
   opacity: 0px;
   background-color: rgba(196, 196, 196, 1);
   cursor: pointer;
@@ -3331,7 +3416,7 @@ color: #000000;
 
 @media (max-width:768px) {
   .CloudComputing-CaseStudies{
-   margin-top: 80px !important;
+   margin-top: 40px !important;
   }
   .casestudies-image_display1 {
     display: block;
@@ -3368,8 +3453,7 @@ color: #000000;
     font-weight: 600;
     line-height: 40.22px;
     width: 270px;
-    padding-top: 0 !important;
-
+    padding-top: 30px !important;
 
   }
   .casestudies-para3 {
@@ -3384,13 +3468,12 @@ color: #000000;
   }
 
   .casestudies-para2 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 22px;
     text-align: left;
-margin-top: -10px !important;
-
-
+    margin-top: -30px !important;
+    
   }
   .casestudies-button_div{
     display: flex;
@@ -3594,7 +3677,7 @@ color:#2B2A2C;
     align-items: center;
   width: 100%;
   margin-left: 0px;
- margin-top: 80px !important;
+ margin-top: 40px !important;
 }
 
   .about_session10_para1 {
@@ -3774,7 +3857,7 @@ margin-left: -50px !important;
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  border: 2px solid #ccc;
+  border: 1px solid #E8E7E7; 
   padding: 10px;
   cursor: pointer;
   transition: background-color 0.5s ease;
@@ -3817,7 +3900,7 @@ margin-left: -50px !important;
 @media (max-width: 728px){
   .section13layout{
     width: 100%;
-    margin-top: 100px !important;
+    margin-top: 50px !important;
  
    }
    .accordion-item {
@@ -3887,7 +3970,7 @@ margin-left: -50px !important;
   padding-bottom: 95px;
   height: 100hv;
   width: 100%;
-
+margin-top: -50px !important;
 }
 
 .form-body {
@@ -4024,7 +4107,12 @@ label {
 }
 
 .form-text {
-  font-size: 24px;
+  color: #000000 !important;
+font-size: 24px !important;
+font-weight: 700 !important;
+line-height: 30.17px !important;
+text-align: left !important;
+
 }
 
 .form-line {
@@ -4070,8 +4158,8 @@ textarea {
   }
 
   .form-body {
-    width: 100% !important;
-    margin-top: 100px !important;
+    margin-top: 50px !important;
+ 
     
   }
 
@@ -4082,7 +4170,12 @@ textarea {
   }
 
   .form-container .form-text {
-    font-size: 24px;
+font-size: 24px;
+font-weight: 600;
+line-height: 30.17px;
+text-align: left;
+color: #000000 !important;
+
   }
 
   .form-head::after {
@@ -4187,6 +4280,8 @@ textarea {
   .form-button {
     margin-top: 0px !important;
     width: 100%;
+    border-radius: 8px !important;
+    height: 36px !important;
   }
 }
 
@@ -4235,6 +4330,7 @@ textarea {
   height: 1px;
   background-color: #eeeeee;
   margin: 20px 0;
+  border: 1px solid #EEEEEE
 }
 .footer-text3 {
   display: flex; 
@@ -4274,15 +4370,30 @@ margin-top: -5px !important;
   color: #676968;
   text-decoration: underline;
   cursor: pointer;
+
 }
 .footer-menu {
   display: block; 
+
+}
+#footer-head{
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.17px;
+  text-align: left;
+ color: #000000 !important;
+
+  
 }
 #footer-head i {
   display: none;
+
+
 }
 .footer-line{
   display: none;
+ 
 }
 .footer-services li {
   width: auto;
@@ -4304,7 +4415,7 @@ margin-top: -100px;
 
 }
 .footer-text3 i{
-  /* padding-bottom: 20px !important; */
+ 
 
 }
 
@@ -4343,6 +4454,7 @@ padding-right: 2px;
   }
   .footer-line{
   display: block;
+  color: #E9E9E9 !important;
 }
   #footer-head i {
   display: inline;
@@ -4355,15 +4467,19 @@ padding-right: 2px;
 .footer-text2{
   margin-top: 15px;
 }
-.footer-text3 i{
-  /* margin-left: 2px !important; */
+#footer-head{
 
-/* 
-margin-top: -5px !important; */
+font-size: 16px;
+font-weight: 400;
+line-height: 20.11px;
+text-align: left;
+color: #676968 !important;
+
 }
 
+
 }
 
 
- /* 8 section */
+
 
